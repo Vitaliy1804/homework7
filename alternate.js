@@ -9,7 +9,7 @@ const firstArray = [{
     surname: "Ivanova",
     gender: "female",
     age: 22
-}};
+}];
 const secondArray=[
 {
   name: "Ivan",
@@ -40,4 +40,4 @@ if(flag){
 }
 	return filteredArray;
 }
-console.log(name);
+console.log(excludeBy(firstArray,secondArray,"name"));
